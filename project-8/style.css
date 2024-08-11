@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    background-color: rgb(23, 43, 71);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+
+}
+.card-container{
+    position: relative;
+    background-color: black;
+}
+.card{
+    overflow: hidden;
+    max-width: 350px;
+    background-color: rgba(255, 255, 255, 0.288);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+.cicle{
+    position: absolute;
+    border-radius: 50%;
+}
+.circle-1{
+    background-color: aqua;
+    width: 140px;
+    height: 140px;
+    top: -50px;
+    left: -50px;
+}
+.circle-2{
+    background-color: royalblue;
+    width: 300px;
+    height: 300px;
+    top: -80px;
+    right: -150px;
+}
+.circle-3{
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    bottom: -90px;
+    left: -50px;
+}
+.card-content{
+    border: 2px solid rgba(255, 255, 255, 0.397);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-img{
+    width: 100%;
+    vertical-align: middle;
+}
+.info{
+    width: 100%;
+}
+.card-info-1{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.course{
+    width: 50%;
+    height: 45px;
+    background-color: rgba(218, 165, 32, 0.132);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.course p{
+    font-size: 22px;
+    font-weight: 900;
+    color: goldenrod;
+}
+.like{
+    width: 20%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.like i{
+    font-size: 25px;
+    cursor: pointer;
+}
+.card-info-2{
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.868);
+}
+.card-info-2 h5{
+    padding-top: 15px;
+    color: rgba(255, 255, 255, 0.45);
+}
+.card-info-3{
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.card-info-3 i{
+    font-size: 25px;
+    color: goldenrod;
+}
+.rate{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.rate p{
+    color: goldenrod;
+    padding-left: 5px;
+}
+#view{
+    color: rgba(255, 255, 255, 0.765);
+}
+.card-info-4{
+    border-top: 2px solid rgba(255, 255, 255, 0.397);
+}
+.btn{
+    width: 100%;
+    height: 65px;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.685);
+    cursor: pointer;
+}
+.btn i{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.63);
+}
